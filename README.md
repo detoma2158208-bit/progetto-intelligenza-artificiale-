@@ -3,7 +3,7 @@ PROGETTO INTELLIGENZA ARTIFICIALE
 
 ## Descrizione del progetto
 
-Il presente progetto mira allo sviluppo di un **modello di classificazione binaria** finalizzato alla predizione del **genere degli editor di Wikipedia in lingua spagnola** (*Male / Female*), utilizzando esclusivamente **pattern quantitativi di contribuzione**.
+Il presente progetto mira allo sviluppo di un **modello di classificazione binaria** finalizzato alla predizione del **genere degli editor di Wikipedia in lingua spagnola** (*Male / Female*).
 
 Il problema si colloca nell’ambito della **classificazione supervisionata** e affronta il tema del *Gender Gap* nelle piattaforme collaborative online, con particolare attenzione all’individuazione di possibili differenze sistematiche nei comportamenti di editing.
 
@@ -19,11 +19,9 @@ L’approccio metodologico adottato si articola nelle seguenti fasi principali:
 
 > È possibile predire il genere di un utente Wikipedia utilizzando esclusivamente variabili di attività di editing?
 
-Il modello si basa unicamente su **metriche quantitative di attività**, quali il numero di modifiche, il volume di pagine editate e la frequenza temporale degli interventi.  
-## Dataset e strumenti utilizzati
+## Dataset
 
-Il dataset utilizzato nel presente lavoro è stato selezionato dalla lista di dataset fornita dalla docente e reso disponibile tramite apposito link:  
-[*Gender Gap in Spanish Wikipedia*](link).
+Il dataset utilizzato nel presente lavoro è stato selezionato dalla lista di dataset fornita dalla docente e reso disponibile tramite apposito link:  https://archive.ics.uci.edu/dataset/852/gender+gap+in+spanish+wp
 
 L’analisi e lo sviluppo dei modelli sono stati condotti utilizzando un **notebook Google Colab**, come richiesto, al fine di garantire la riproducibilità degli esperimenti e un ambiente di sviluppo condivisibile.
 
